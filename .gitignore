@@ -3,6 +3,6 @@ WeatherAPP/Backend/venv/
 
 
 # Ignore Python cache
-subdir2/Backend/__pycache__/
+WeatherAPP/Backend/__pycache__/
 *.py[cod]
 
