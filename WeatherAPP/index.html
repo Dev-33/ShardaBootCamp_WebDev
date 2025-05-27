@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="style.css" />
-  <title>iPhone Style Weather App</title>
+  <title>WeatherAPP</title>
   
 </head>
 <body>
@@ -13,7 +13,7 @@
       <h1>Weather App</h1>
 
       <div class="data">
-        <form id="weather-form">
+        <form id="weather-form" action="#">
           <div class="inp-search">
             <input type="text" id="city-input" placeholder="Enter the City" />
             <img src="/WeatherAPP//static//images/search.png" alt="Search" class="searchy" id="search-icon">
@@ -22,14 +22,16 @@
 
         <!-- 🌤️ Styled Dummy Weather Data -->
         <div class="weather-info">
-          <h2><span class="emoji">📍</span>Faketown</h2>
-          <p><span class="emoji">🌡️</span>Temperature: <strong>42°C</strong></p>
-          <p><span class="emoji">⛅</span>Condition: Partly Cloudy</p>
-          <p><span class="emoji">💧</span>Humidity: 87%</p>
-          <p><span class="emoji">🌬️</span>Wind Speed: 15 km/h</p>
+           <h2><span class="emoji">📍</span>${data.city}</h2>
+        <p><span class="emoji">🌡️</span>Temperature: <strong>${data.temperature}°C</strong></p>
+        <p><span class="emoji">⛅</span>Condition: ${data.condition}</p>
+        <p><span class="emoji">💧</span>Humidity: ${data.humidity}%</p>
+        <p><span class="emoji">🌬️</span>Wind Speed: ${data.wind_speed} km/h</p>
+      
         </div>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

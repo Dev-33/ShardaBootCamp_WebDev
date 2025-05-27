@@ -1,0 +1,8 @@
+# Ignore virtual environments
+WeatherAPP/Backend/venv/
+
+
+# Ignore Python cache
+subdir2/Backend/__pycache__/
+*.py[cod]
+
