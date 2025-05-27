@@ -12,7 +12,7 @@ body, html {
 }
 
 .Big-Container {
-    background-image: url("/static/images/Background-app.jpg");
+    background-image: url("/WeatherAPP//static//images/Background-app.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
