@@ -1,7 +1,3 @@
-# Ignore virtual environments
-WeatherAPP/Backend/venv/
-
-
-# Ignore Python cache
-WeatherAPP/Backend/__pycache__/
-*.py[cod]
+# Ignore virtual environments and Python cache
+WeatherAPP/backend/venv/
+WeatherAPP/backend/__pycache__/
