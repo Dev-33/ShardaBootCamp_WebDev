@@ -1,0 +1,125 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 40px;
+  background: linear-gradient(to right, #c0f0ff, #e1f7ff);
+  background-image: url('/TODOList/static/Images/BodyGaurd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #12343b;
+}
+
+.container {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0d3b66;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f0fbff;
+  font-size: 15px;
+  color: #12343b;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #64c9f3;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: linear-gradient(to right, #00bcd4, #009688);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0097a7, #00796b);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: #558b94;
+}
+
+.task-left {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.task-info {
+  font-size: 0.8em;
+  color: #407a87;
+  margin-top: 4px;
+}
+
+input[type="checkbox"] {
+  accent-color: #00acc1;
+}
+
+li button {
+  background-color: transparent;
+  border: none;
+  color: #0097a7;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+li button:hover {
+  color: #006064;
+}
+
+p em {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #0d3b66;
+  text-align: center;
+}
