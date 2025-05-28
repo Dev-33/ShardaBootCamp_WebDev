@@ -2,3 +2,6 @@
 WeatherAPP/Backend/venv/
 WeatherAPP/Backend/__pycache__/
 **/venv/
+
+# dependencies
+ReactApp/myproject/node_modules/
